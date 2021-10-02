@@ -1,4 +1,4 @@
-import styles from './Statistics.module.css';
+import styles from '../Statistics/Statistics.module.css';
 import PropTypes from 'prop-types';
 
 const color = item => {

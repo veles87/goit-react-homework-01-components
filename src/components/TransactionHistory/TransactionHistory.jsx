@@ -1,4 +1,4 @@
-import styles from './TransactionHistory.module.css';
+import styles from '../TransactionHistory/TransactionHistory.module.css';
 import PropTypes from 'prop-types';
 
 function upperFirstLetter(string) {
