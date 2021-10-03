@@ -1,15 +1,22 @@
 .transTable {
   display: flex;
   justify-content: center;
+  background-color: #fff;
 }
-table {
-  font-family: 'Lucida Sans Unicode', 'Lucida Grande', Sans-Serif;
-  font-size: 12px;
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 15px solid #F2F8F8;
+  border-top: 5px solid #F2F8F8;
   border-collapse: collapse;
-  text-align: center;
-  border-bottom: 1px solid #dbdbdb;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
 }
+
+
+
+
+
+
 th {
   width: 250px;
   height: 45px;
@@ -20,7 +27,7 @@ th {
   font-weight: 600;
   color: #ffffff;
   border-color: #ffffff;
-  background: #07aecc;
+  background: #3b07cc;
 }
 
 td {
@@ -29,8 +36,11 @@ td {
   padding: 10px 20px;
   border-left: 1px solid #dbdbdb;
   border-right: 1px solid #dbdbdb;
-  color: #050505f1;
+  color: #000000f1;
 }
-td {
-  background: #ffffff;
+td{
+  background: rgb(182, 179, 179);
 }
+
+
+
