@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/goit-react-homework-01-components/static/css/main.5938dc2d.chunk.css",
-    "main.js": "/goit-react-homework-01-components/static/js/main.317a9d05.chunk.js",
-    "main.js.map": "/goit-react-homework-01-components/static/js/main.317a9d05.chunk.js.map",
-    "runtime-main.js": "/goit-react-homework-01-components/static/js/runtime-main.4ddaf854.js",
-    "runtime-main.js.map": "/goit-react-homework-01-components/static/js/runtime-main.4ddaf854.js.map",
-    "static/js/2.9ec17713.chunk.js": "/goit-react-homework-01-components/static/js/2.9ec17713.chunk.js",
-    "static/js/2.9ec17713.chunk.js.map": "/goit-react-homework-01-components/static/js/2.9ec17713.chunk.js.map",
-    "static/js/3.6e9dcf94.chunk.js": "/goit-react-homework-01-components/static/js/3.6e9dcf94.chunk.js",
-    "static/js/3.6e9dcf94.chunk.js.map": "/goit-react-homework-01-components/static/js/3.6e9dcf94.chunk.js.map",
+    "main.css": "/goit-react-homework-01-components/static/css/main.4a08d4dd.chunk.css",
+    "main.js": "/goit-react-homework-01-components/static/js/main.8e17cd3d.chunk.js",
+    "main.js.map": "/goit-react-homework-01-components/static/js/main.8e17cd3d.chunk.js.map",
+    "runtime-main.js": "/goit-react-homework-01-components/static/js/runtime-main.077d2bf0.js",
+    "runtime-main.js.map": "/goit-react-homework-01-components/static/js/runtime-main.077d2bf0.js.map",
+    "static/js/2.959b21fe.chunk.js": "/goit-react-homework-01-components/static/js/2.959b21fe.chunk.js",
+    "static/js/2.959b21fe.chunk.js.map": "/goit-react-homework-01-components/static/js/2.959b21fe.chunk.js.map",
+    "static/js/3.fbd51c3d.chunk.js": "/goit-react-homework-01-components/static/js/3.fbd51c3d.chunk.js",
+    "static/js/3.fbd51c3d.chunk.js.map": "/goit-react-homework-01-components/static/js/3.fbd51c3d.chunk.js.map",
     "index.html": "/goit-react-homework-01-components/index.html",
-    "static/css/main.5938dc2d.chunk.css.map": "/goit-react-homework-01-components/static/css/main.5938dc2d.chunk.css.map",
-    "static/js/2.9ec17713.chunk.js.LICENSE.txt": "/goit-react-homework-01-components/static/js/2.9ec17713.chunk.js.LICENSE.txt"
+    "static/css/main.4a08d4dd.chunk.css.map": "/goit-react-homework-01-components/static/css/main.4a08d4dd.chunk.css.map",
+    "static/js/2.959b21fe.chunk.js.LICENSE.txt": "/goit-react-homework-01-components/static/js/2.959b21fe.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4ddaf854.js",
-    "static/js/2.9ec17713.chunk.js",
-    "static/css/main.5938dc2d.chunk.css",
-    "static/js/main.317a9d05.chunk.js"
+    "static/js/runtime-main.077d2bf0.js",
+    "static/js/2.959b21fe.chunk.js",
+    "static/css/main.4a08d4dd.chunk.css",
+    "static/js/main.8e17cd3d.chunk.js"
   ]
 }
