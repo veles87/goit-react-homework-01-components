@@ -1,50 +1,57 @@
-import styles from './FriendList.module.css';
+import FriendListItem from './FriendListItem';
 import PropTypes from 'prop-types';
+import styles from '../FriendList/FriendList.module.css';
 
-function friendOnline(status) {
-  if (status) {
-    return '#2ECC71';
-  } else {
-    return '#E74C3C';
-  }
-}
-
-const FriendList = ({ friends }) => {
+const FriendList = ({ friends = [] }) => {
   return (
-    <div class={styles.friends}>
-      <ul class={styles.friendlist}>
-        {friends.map(friend => (
-          <li class={styles.item} key={friend.id}>
-            <span
-              class={styles.status}
-              style={{ color: friendOnline(friend.isOnline) }}
-            >
-              {' '}
-              ●
-            </span>
-            <img
-              class={styles.avatar}
-              src={friend.avatar}
-              alt={friend.name}
-              width="48"
-            />
-            <p class={styles.name}>{friend.name}</p>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <ul className={styles.friendList}>
+      {friends.map(friend => (
+        <FriendListItem
+          key={friend.id}
+          isOnline={friend.isOnline}
+          avatar={friend.avatar}
+          name={friend.name}
+        />
+      ))}
+    </ul>
   );
 };
+
+//рендер в 1 файле
+/* import React from 'react';
+import PropTypes from 'prop-types';
+import styles from '../FriendList/FriendList.module.css';
+export default function FriendList(props) {
+  const { friends } = props;
+  return (
+    <ul className={styles.friendList}>
+      {friends.map(friend => (
+        <li className={styles.item} key={friend.id}>
+          <span
+            className={friend.isOnline ? styles.isOnline : styles.isOffline}
+          ></span>
+          <img
+            className={styles.avatar}
+            src={friend.avatar}
+            alt=""
+            width="48"
+          />
+          <p className={styles.name}>{friend.name}</p>
+        </li>
+      ))}
+    </ul>
+  );
+} */
+
 FriendList.propTypes = {
-  avatar: PropTypes.string,
-  name: PropTypes.string,
-  isOnline: PropTypes.bool,
-  id: PropTypes.string.isRequired,
-};
-FriendList.defaultProps = {
-  avatar: 'https://www.flaticon.com/svg/static/icons/svg/1623/1623681.svg',
-  name: 'User name',
-  isOnline: false,
+  friends: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      isOnline: PropTypes.bool.isRequired,
+      avatar: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+    }),
+  ),
 };
 
 export default FriendList;

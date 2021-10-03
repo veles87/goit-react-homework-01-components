@@ -24,6 +24,7 @@
   height: 100px;
   background-color: #858585;
   border-radius: 10px;
+  margin-left: 15px;
 }
 .status {
   margin: 15px;
@@ -33,4 +34,17 @@
   margin-left: 18px;
   font-size: 28px;
   font-weight: 500;
+}
+.item:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+.friendList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  flex-direction: column;
+  margin-bottom: 35px;
+  margin-top: 20px;
 }
